@@ -29,6 +29,7 @@ public class UserApiImpl implements UserApi {
     @Autowired
     private UserService userService;
 
+    @Override
     @RequestMapping("/getUserByName")
     public UserInfoModel getUserByName(String username) {
         RbacUserEntity userEntity = userService.findByUserName(username);
@@ -40,6 +41,8 @@ public class UserApiImpl implements UserApi {
         logger.info("username : {}" , username);
         return userInfoModel;
     }
+
+    @Override
     @RequestMapping("/getUserDetail")
     public UserModel getUserDetailByName(String username){
         RbacUserEntity userEntity = userService.findByUserName(username);
@@ -79,6 +82,7 @@ public class UserApiImpl implements UserApi {
     }
 
 
+    @Override
     @RequestMapping("/getUserDetailByNameAndServerName")
     public UserModel getUserDetailByNameAndServerName(String username, String serverName) {
         return userService.getUserDetailByNameAndServerName(username,serverName);

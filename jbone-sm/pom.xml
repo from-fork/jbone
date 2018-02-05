@@ -15,5 +15,10 @@
         <module>jbone-sm-admin</module>
     </modules>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.majunwei</groupId>
+            <artifactId>jbone-common</artifactId>
+        </dependency>
+    </dependencies>
 </project>

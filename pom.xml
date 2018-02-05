@@ -49,10 +49,10 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.majunwei</groupId>
-            <artifactId>jbone-common</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.majunwei</groupId>-->
+            <!--<artifactId>jbone-common</artifactId>-->
+        <!--</dependency>-->
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
