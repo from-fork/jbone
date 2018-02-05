@@ -13,6 +13,7 @@
     <name>jbone-bpm</name>
     <url>http://maven.apache.org</url>
     <description>流程平台</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
